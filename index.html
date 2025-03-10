@@ -214,8 +214,44 @@ for endpoint_group in response['dataflowEndpointGroupList']:
     --metric-data-queries file://metric_queries.json</code></pre>
 
   <p>I hope these code snippets help you in your AI DevOps journey with AWS services! Let me know if you need more assistance.</p>
+  <h3>4. Networking Considerations for Carbon Efficiency</h3>
+  <p>
+    <strong>What is the carbon cost of networking?</strong> While difficult to measure with competing models, two key factors emerge:
+  </p>
+  <ul>
+    <li>
+      <strong>Data Size as Carbon Proxy:</strong> 
+      <ul>
+        <li>Larger data transmissions require more energy and compute resources</li>
+        <li>For websites, use <strong>page weight</strong> (total size of all assets) as a primary metric</li>
+        <li>Page weight directly correlates with energy consumption during data transmission</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>Transmission Distance as Carbon Proxy:</strong>
+      <ul>
+        <li>Data traveling longer distances requires more network infrastructure energy</li>
+        <li>Key considerations:
+          <ul>
+            <li>User geographic distribution</li>
+            <li>Server location(s)</li>
+            <li>Content Delivery Network (CDN) utilization</li>
+          </ul>
+        </li>
+        <li>Critical metric: <strong>Average distance per MB</strong> traveled to reach end users</li>
+      </ul>
+    </li>
+  </ul>
 
-  <!-- (Rest of the content remains unchanged) -->
+  <p>
+    <strong>Implementation Strategy:</strong>
+    <ul>
+      <li>Monitor and optimize page weight through asset compression and lazy loading</li>
+      <li>Implement geolocation-based CDN routing to minimize transmission distances</li>
+      <li>Develop distance calculation metrics based on user location analytics</li>
+    </ul>
+  </p>
 </div>
 
 </body>
