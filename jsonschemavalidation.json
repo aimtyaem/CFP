@@ -1,0 +1,17 @@
+import json
+import jsonschema
+from jsonschema import validate
+
+# Load schema and data
+with open("/content/energybillegy.json", "r") as schema_file:
+    schema = json.load(schema_file)
+
+with open("/content/John_energy_bill.json", "r") as data_file:
+    energy_bill_data = json.load(data_file)
+
+# Validate
+try:
+    validate(instance=energy_bill_data, schema=schema)
+    print("Validation successful!")
+except jsonschema.exceptions.ValidationError as err:
+    print("Validation error:", err)
