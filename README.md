@@ -123,6 +123,7 @@ This project includes the following components:
 
 ---
 
+```
 ## Getting Started
 
 1. **Clone the repository:**
@@ -132,7 +133,7 @@ git clone https://github.com/aimtyaem/AGO.git
 cd AGO
 
 2. Set up Python environment:
-
+```
 
 
 python -m venv venv
@@ -194,14 +195,4 @@ Visit the project wiki for in-depth guides.
 
 
 ---
-
-We hope this enhanced version of AGO empowers users even further in their carbon reduction journeys, backed by AWS-powered machine learning intelligence.
-
-
----
-
-Would you also like me to generate a matching requirements.txt that aligns with this SageMaker upgrade?
-(It’ll make onboarding contributors even smoother.)
-
-Let me know if you’d like me to also convert the **"requirements.txt"** portion to markdown code style for full consistency!
 
