@@ -81,11 +81,11 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 3. Configure AWS credentials:
-
+```
 
 
 aws configure
-
+```
 4. Run SageMaker pipeline notebook:
 
 Open ml/carbon_model_sagemaker_pipeline.ipynb and execute cells.
@@ -95,7 +95,7 @@ Deploy endpoint with deploy_endpoint.py.
 
 
 5. Launch frontend and connect to live AI models.
-
+```
 
 
 
