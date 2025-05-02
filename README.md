@@ -3,7 +3,7 @@
 ## Background
 
 The AutoGuided Onboarding webApp (AGO) aims to address the pressing issue of carbon footprint reduction through innovative technology. By leveraging autonomous small satellites (smallsats) for earth observation, this webApp provides users with personalized insights and recommendations to help them reduce their carbon footprint. The goal is to empower individuals and organizations to take actionable steps towards a more sustainable future.
-![Auto smallsat network topology](https://github.com/aimtyaem/EOInfo/blob/a71ee89bf3f7443bb7766dca35ce432feffd1bfd/1751033024.jpg)
+![AutoGS](img/logo.jpg)
 
 
 ## Project Structure
